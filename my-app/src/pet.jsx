@@ -1,13 +1,7 @@
 const Pet = () => {
     return (
         <div>
-         <ol>
-            <li>Water</li>
-            <li>Leaf</li>
-            <li>Milk</li>
-            <li>Sugar</li>
-            <h3>Tea is ready.</h3>
-         </ol>
+         <h1>I am learning React.</h1>
         </div>
     )
 }
