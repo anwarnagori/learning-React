@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 60px;
+    background-color: rgb(178, 188, 199);
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header li {
+    margin-top: 20px;
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 18px;
+    color: rgb(20, 20, 200);
+}
+
+.header li:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
