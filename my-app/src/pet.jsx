@@ -1,9 +1,19 @@
-const Pet = () => {
-    return (
-        <div>
-         <h1>I am learning React.</h1>
-        </div>
-    )
-}
+const Navbar = () => {
+  return (
+    <>
+     <navbar>
+      <div className="header">
+       <ul>
+        <li>Learn</li>
+        <li>Reference</li>
+        <li>Community</li>
+        <li>Blog</li>
+        <li>Contect</li>
+       </ul>
+      </div>
+     </navbar>
+    </>
+  );
+};
 
-export default Pet;
+export default Navbar;
