@@ -12,6 +12,7 @@ const Navbar = () => {
           </ul>
         </div>
       </navbar>
+      <div className="middle"></div>
     </>
   );
 };
